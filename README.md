@@ -1,24 +1,15 @@
 # Stock Prices
-ReactJS-based application that acts as interface to stocks database
+## About
+'Stock Prices' is a React-based web application that serves as an interface for a stocks database, enabling users to view and analyse stock market data. It interacts with a REST API to retrieve data from the database and submit information such as login and registration details. Non-logged-in users can access a table displaying stocks from various companies, which can be filtered by industry. Users can also search for specific stock prices by entering the stock's symbol. Additionally, they can generate a visual representation of the price fluctuations for a selected stock. Logged-in users gain access to the price history feature, which allows them to view the price changes of a specific stock over a given date range by inputting the stock’s symbol and selecting two dates. They can also visualize the price history graphically.
 
-## Setup the Application
-To setup the Stock Prices application install NPM using npm install
+To ensure a clean and visually appealing user interface, several modules were integrated into the application. Ag-Grid, a JavaScript data grid, was used to display the stock data in table form, which eliminates the need to manually create tables in HTML and enhances efficiency. Reactstrap, a module containing pre-built Bootstrap 4 components, was incorporated for responsive design and easy element placement using grids. Finally, ChartJS, a JavaScript library for data visualisation, was used to generate graphical representations of stock price data.
 
-Then you can run the application in any web browser using npm start
+## How to Run
+* Install NPM packages: npm install
+* Run application in browser: npm start
 
-NOTE: The API no longer works with the application
+**NOTE**: The API no longer works with the application
 
-## Project Summary
-As part of a university assignment at QUT React was used to design and develop the front end of a stocks application. Using an API to store and provide stocks and user details to the application a user is able to login and register an account or view the stocks as a guest. Depending on the users status they are able to view and access different levels of information. With the logged in user being able to view each stock in detail, specifying a date range to graphically view the stocks data in graphs and tables. Whereas the guest user is only able to see the most recent entry for each individual stock.
+## Demo Video
+https://github.com/user-attachments/assets/a7667c58-b3e2-4cdd-a102-422a277d1670
 
-## Application Design
-When designing the ‘Lunar Exchange’ web app specific detail was taken towards the overall design and layout of it. Whilst functionality is key, having a sleek and easy to use website can determine the success of a real world application. When looking at other stock market-based websites there is often a lack of design, with pages filled with statistics and charts making it overwhelming for the novice user. Using cool colour tones of purples and blues throughout and reoccurring minimal graphics the Stock Prices website appears uniform and easy to understand and navigate. To achieve this, ‘react-strap’ was implemented for features such as a navigation bar, and an external CSS file illustrated the overall styling theme of the pages.
-
-## Development Tools
-React
-Node.js
-AG Grid React
-Chart.js
-Semantic UI React
-React Strap
-React Router DOM
